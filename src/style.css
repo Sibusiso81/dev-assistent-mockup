@@ -1,0 +1,107 @@
+/* .sections{
+    background-color:aqua;
+    border: 2px solid lightgray;
+} */
+
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .nevbar{
+        width: 100%;
+    }
+    .chatbox{
+        margin-top: 15px;
+        height: 250px;
+        border-radius:20px ;
+        /* border-bottom-left-radius:20px ;
+        border-bottom-right-radius:20px ; */
+    }
+    .speach{
+        width: fit-content;
+        height: 100px;
+        margin: 50px auto;
+        padding: 0;
+        align-items: center;
+        justify-content:center;        
+
+    }
+    .box-container{
+        display:flex;
+        flex-wrap:wrap;
+        max-width:200px;
+        margin:0 auto;
+        align-items: center;
+        justify-content:center;
+      }
+      .width{
+        max-width:300px;
+      }
+      .box{
+        width:16px;
+        height:16px;
+        background-color:#9AD0C2;
+        margin:2px;
+      }
+      #chat2 .form-control {
+        border-color: transparent;
+      }
+
+      #chat2 .form-control:focus {
+        border-color: transparent;
+        box-shadow: inset 0px 0px 0px 1px transparent;
+      }
+
+      .divider:after,
+      .divider:before {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background: #eee;
+      }
+ }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .box{
+        width:16px;
+        height:16px;
+        background-color:#9AD0C2;
+        margin:2px;
+      }
+      .box-container{
+        display:flex;
+        flex-wrap:wrap;
+        max-width:200px;
+        margin:0 auto;
+        align-items: center;
+        justify-content:center;
+      }
+}
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .box{
+        width:16px;
+        height:16px;
+        background-color:#9AD0C2;
+        margin:2px;
+      }
+      .box-container{
+        display:flex;
+        flex-wrap:wrap;
+        max-width:200px;
+        margin:0 auto;
+        align-items: center;
+        justify-content:center;
+      }
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+ }
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+
+ }
